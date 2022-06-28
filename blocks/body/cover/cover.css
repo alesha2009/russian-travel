@@ -1,0 +1,7 @@
+.cover {
+    width: 1184px;
+    min-height: 740px;
+    background-image: url(../../../sprint-3-images/cover-trains.jpg);
+    background-size: cover;
+    margin: 92px auto 92px;
+}
