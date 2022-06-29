@@ -5,3 +5,24 @@ margin-left: 148px;
 margin-top: 92px;
 margin-bottom: 92px;
 }
+
+@media screen and (max-width: 1279px) {
+    .intro {
+        width: calc(100% - 48px * 2);
+        padding: 92px 48px 0 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        width: calc(100% - 24px * 2);
+        padding: 88px 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        width: calc(100% - 16px * 2);
+        padding: 64px 16px 0 16px;
+    }
+}

@@ -6,3 +6,9 @@
     letter-spacing: 2px;
     color: #AAAAAA;    
 }
+
+@media screen and (max-width: 767px) {
+    .place__url-text {
+        margin-left: 16px;
+    }
+}
