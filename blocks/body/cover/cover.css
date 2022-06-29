@@ -1,7 +1,8 @@
 .cover {
-    width: 1184px;
+    max-width: 1184px;
     min-height: 740px;
     background-image: url(../../../sprint-3-images/cover-trains.jpg);
+    background-position: center;
     background-size: cover;
     margin: 92px auto 92px;
 }
@@ -9,6 +10,7 @@
 @media screen and (max-width: 1279px) {
     .cover {
         min-height: 640px;
+        
     }
 }
 
@@ -16,6 +18,7 @@
     .cover {
         min-height: 480px;
         margin-top: 90px;
+        
     }
 }
 
