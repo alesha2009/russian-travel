@@ -1,12 +1,16 @@
 .header__lang-link {
+    margin: 0;
     width: 29px;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
-    text-decoration: none;
     margin-top: 18px;
     margin-bottom: 6px;
+}
+
+.header__lang-link:first-child {
+   margin-right: 18px; 
 }
 .header__lang-link:hover {
     opacity: 0.8;
@@ -18,3 +22,4 @@
         line-height: 20px;
     }
 }
+

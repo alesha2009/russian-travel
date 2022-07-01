@@ -1,0 +1,15 @@
+.header__links {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+    .header__links {
+        align-items: center;
+    
+}
+}
